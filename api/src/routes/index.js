@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const  videogameControllers = require('../controllers/videogameControllers');
+const  videogameControllers = require('../Controllers/videogameControllers');
 const DetailsControllers = require('../controllers/DetailsControllers');
 const GenreControllers = require('../Controllers/GenreControllers');
 const Platforms = require('../Controllers/PlatformsController');
