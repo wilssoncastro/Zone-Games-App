@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "docker": "^1.0.0",
-    "heroku": "^7.60.2"
-  }
-}
