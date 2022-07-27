@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+   background-image: url('../src//images/mario-01.jpg');
+  background-size:cover;
+  background-position: center;
+ 
+
+  
+  color: aliceblue;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

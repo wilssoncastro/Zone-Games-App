@@ -1,0 +1,122 @@
+.allHome{
+  font-family: 'Bebas Neue',Times,serif;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5a4a8093d7bdce7948030b31/1549938371559-HVAQ6ZHN781ZYWPHGZW9/proletariat-fallback-bg.jpg?format=2500w');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x:hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  position: relative;
+    
+    
+}
+
+.custom-select{
+
+ background-color: #efb810; 
+ border-radius: 20px;
+color: rgb(0, 0, 0);
+word-wrap: normal;
+text-transform: capitalize;
+font-size: 18px;
+line-height: inherit;
+margin: 10px 10px 0;  
+font-family: 'Bebas Neue',Times,serif;
+padding: 4px;
+  }
+
+  .custom-select:hover{
+    background-color: rgb(0, 0, 0); 
+    color: azure;
+  }
+
+  .buttonHome{
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;    
+    text-align: center;
+    text-transform: uppercase ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: #eee;
+    width: 15%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.buttonHome:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    color:black;
+    background-color: #efb810;
+}
+
+
+.buttonSearch{
+  margin: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 10px;    
+  text-align: center;
+  text-transform: uppercase ;
+  transition: 0.5s;
+  background-size: 200% auto;
+  background-color: rgb(0, 0, 0);
+  color: #FFF;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border-color: #eee;
+  width: 22%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.buttonSearch:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 8px 10px 12px;
+  color:black;
+  background-color: #efb810;
+}
+.loading{ 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+
+}
+
+.errorFound {
+  color: red;
+}
+.errorFound img{
+  width: 200px;
+}
+
+  
+.Filters_Container{
+  background: rgb(195, 32, 32);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:  0px;
+ 
+}
+  
+  
+.text_black{
+  color: black;
+}

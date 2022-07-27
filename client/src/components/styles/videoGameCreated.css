@@ -1,0 +1,127 @@
+
+.componentCreate{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 0 200px;   
+
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    background: rgba(23, 22, 27, 0.867);
+    border-radius: 30px;
+    border: 1px solid #cbb6b6;
+    color: #ffffff;
+    padding: 20px;
+    margin: -50px 50px 0 0;
+    width: 620px;
+}
+
+
+.nameForm label{
+    display: inline-block;
+    padding: 4px 0 5px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+.nameForm input{
+    background-color: transparent;
+    color: #cbb6b6;
+    border: 1px solid #cbb6b6;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font: inherit;
+    margin: 0;
+}
+.error{
+    color: red;
+    font-size: 20px;
+}
+
+
+.cajitaElemento{
+    display: inline-block;    
+    color: rgb(255, 255, 255);     
+    margin: 0 10px 0 -5px;   
+    
+}
+
+.selectBox{
+    margin: 10px 10px 0;
+    background-color: #efb810;
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman",Times,serif;
+    padding: 4px;
+}
+
+
+
+
+.ButtonX{    
+    font-family: "Arial Black", Gadget, sans-serif;
+    height: 20px;
+    font-size: 10px;
+    justify-content: center;
+    transition: 0.5s;
+    background-color: #ba2e1e;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0px;
+   
+    
+}
+
+.ButtonX:hover{
+    color:rgb(255, 255, 255);  
+    background-color: #f13106;
+}
+
+
+.createButton{
+    text-align: center;
+    margin-top: 4%;    
+
+}
+
+.createButton button{
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+
+}
+.createButton button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    color:black;
+    background-color: #efb810;
+}
+
+
+
+
+
+
+
