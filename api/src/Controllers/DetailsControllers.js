@@ -11,8 +11,7 @@ router.get('/:id', async (req,res,next) => {
     const { id } = req.params;
     try {
 
-      if (id.length > 8) {
-
+      
         const videogame = await Videogame.findByPk(id, {
             include: [{
                 model: Genre,
@@ -30,19 +29,7 @@ router.get('/:id', async (req,res,next) => {
         })
         res.send(videogame)
 
-    } else {
-        const gameDetail = await axios(`https://api.rawg.io/api/games/${id}?key=${API_KEY}`);
-        let e = gameDetail.data;
-        const detailsObj = {
-            name: e.name,
-            image: e.background_image,
-            description: e.description,
-            released: e.released,
-            rating: e.rating,
-            genres: e.genres.map(e => e.name),
-            platforms: e.platforms.map(e => e.platform.name)
-        }
-        return res.send(detailsObj);}
+    
     } catch (error) {
         next(error);
     }
@@ -55,12 +42,15 @@ router.post("/", async (req, res, next) => {
     const { name, description, released, image, rating, platforms, genre  } = req.body;
     try {
       const newGame = await Videogame.create({
+        id: Math.floor((Math.random()+1)*100),
         name: name.toUpperCase(),
         description,
         released,         
         rating,
         image,
         platforms,
+        createdInDb: true
+
        });
 
       let genreDb = await Genre.findAll({

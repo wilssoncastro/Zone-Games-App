@@ -5,8 +5,7 @@ module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('videogame', {
     id: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
+      type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false
     },
@@ -15,7 +14,7 @@ module.exports = (sequelize) => {
       allowNull: false,
       
     }, description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false                
     },
     released: {
@@ -35,7 +34,7 @@ module.exports = (sequelize) => {
     createdInDb: { 
       type: DataTypes.BOOLEAN,
       allowNull: false,
-      defaultValue: true
+      defaultValue: false
     }, 
   },
   {timestamps: false}

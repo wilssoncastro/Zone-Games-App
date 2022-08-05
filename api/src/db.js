@@ -71,28 +71,28 @@ Videogame.belongsToMany(Platform,{through:"videgame_platforms"})
 Platform.belongsToMany(Videogame,{through:"videgame_platforms"})
 
 
-  const allGenres = axios.get(`https://api.rawg.io/api/genres?key=${API_KEY}`)
-  .then(response =>response.data.results)
-  allGenres.then(e=> {
-    e.map(g=>{
-      Genre.create({
-        name: g.name, 
+  // const allGenres = axios.get(`https://api.rawg.io/api/genres?key=${API_KEY}`)
+  // .then(response =>response.data.results)
+  // allGenres.then(e=> {
+  //   e.map(g=>{
+  //     Genre.create({
+  //       name: g.name, 
        
-      })
-    })
-  })
+  //     })
+  //   })
+  // })
  
 
-  const allPlatforms =  axios(`https://api.rawg.io/api/platforms?key=${API_KEY}`)
-  .then(response =>response.data.results)
-  allPlatforms.then(e=> {
-    e.map(p=>{
-      Platform.create({
-        name: p.name, 
+  // const allPlatforms =  axios(`https://api.rawg.io/api/platforms?key=${API_KEY}`)
+  // .then(response =>response.data.results)
+  // allPlatforms.then(e=> {
+  //   e.map(p=>{
+  //     Platform.create({
+  //       name: p.name, 
         
-      })
-    })
-  })
+  //     })
+  //   })
+  // })
 
 
 

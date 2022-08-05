@@ -1,4 +1,5 @@
 const { Router } = require('express');
+const router = Router();
 const  videogameControllers = require('../Controllers/videogameControllers');
 const DetailsControllers = require('../controllers/DetailsControllers');
 const GenreControllers = require('../Controllers/GenreControllers');
@@ -8,7 +9,7 @@ const Platforms = require('../Controllers/PlatformsController');
 // Ejemplo: const authRouter = require('./auth.js');
 
 
-const router = Router();
+
 
 // Configurar los routers
 

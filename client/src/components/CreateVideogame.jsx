@@ -38,6 +38,7 @@ export default function AddVideogame() {
 
 
   const [videogame, setVideogame] = useState({
+    
     name: "",
     description: "",
     image: "",
@@ -114,6 +115,7 @@ export default function AddVideogame() {
         alert('Videogame Created!')
 
         setVideogame({
+         
           name: "",
           description: "",
           image: "",
