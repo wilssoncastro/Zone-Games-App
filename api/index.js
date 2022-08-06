@@ -17,7 +17,7 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const server = require('./src/app.js');
+const server = require('./src/app');
 const { conn } = require('./src/db.js');
 const { genres } = require('./src/services/genres.js');
 const { platforms } = require('./src/services/platforms.js');
