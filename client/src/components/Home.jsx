@@ -166,7 +166,7 @@ export default function Home() {
 
                                 )
                             }) : <div className="errorFound">
-                                <h1>Sorry!, the searched video game is not found</h1>
+                                <h1>Lo siento no funciona</h1>
                                 <h2>Error 404</h2>
                                 <img src="https://www.pngplay.com/wp-content/uploads/6/Game-Over-Yellow-Transparent-PNG.png" />
                             </div>
